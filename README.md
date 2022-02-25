@@ -8,7 +8,7 @@ Na pasta raiz do projeto executar:
 
 2. npm run deploy
 
-O projeto1 rodará no `localhost:3500` e o projeto 2 no `localhost:3501
+O projeto1 rodará no `localhost:3500` e o projeto 2 no `localhost:3501`
 
 ## Rotas
 
