@@ -2,7 +2,7 @@
 
 ## Tutorial de instalação dos pacotes:
 
-1 - npm install @angular/elements@9.1.12
+1.  npm install @angular/elements@9.1.12
 
 2 - npm install @ungap/custom-elements@1.0.0
 
