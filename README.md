@@ -8,9 +8,35 @@ Na pasta raiz do projeto executar:
 
 2. npm run deploy
 
-O projeto1 rodará na porta 3500 e o projeto 2 na porta 3501
+O projeto1 rodará no `localhost:3500` e o projeto 2 no `localhost:3501
 
-## Como foram instalados os pacotes:
+## Rotas
+
+### Projeto 1
+    
+    /comp2
+    
+    Exibe o web componente `<projeto-2-comp-sem-rota>` criado no projeto 2
+    
+    /comp3
+    
+    Rota comum
+    
+### Projeto 2 
+` 
+    /comp1
+    
+    Exibe o componente `<comp-sem-rota>` (Esse componente é o `<projeto-2-comp-sem-rota>`, só muda a nomemclatura, onde **com-sem-rota** é o nome para utilizá-lo dentro da aplicação (seletor) e **projeto-2-comp-sem-rota** é o nome para utilizá-lo como web component)
+    
+    /comp2
+    
+    Exibe o web componente <projeto-1-comp1> criado no projeto 1 (é um web componente simples apenas para demonstrar que é possível o projeto1 usar componentes do projeto 2 e vice-versa).
+    
+    /comp3
+    
+    Rota comum
+    
+## (Plus) Como foram instalados os pacotes:
 
 1.  npm install @angular/elements@9.1.12
 
