@@ -16,7 +16,7 @@ O projeto1 rodará no `localhost:3500` e o projeto 2 no `localhost:3501`
 
 /comp2
 
-Exibe o web componente `projeto-2-comp-sem-rota` criado no projeto 2
+Exibe o web component `projeto-2-comp-sem-rota` criado no projeto 2
 
 /comp3
 
@@ -33,7 +33,7 @@ só muda a nomenclatura, onde **com-sem-rota** é o nome para utilizá-lo dentro
 
 /comp2
 
-Exibe o web componente `projeto-1-comp1` criado no projeto 1 (é um web componente
+Exibe o web component `projeto-1-comp1` criado no projeto 1 (é um web componentc
 simples apenas para demonstrar que é possível o projeto1 usar componentes do projeto 2
 e vice-versa).
 
@@ -48,7 +48,7 @@ Rota comum
 2.  npm install @ungap/custom-elements@1.0.0
 
 3.  ng add ngx-build-plus@11.0.0 (o ng add irá ajustar o angular.json para utilizar
-    o ngx-build-plus, quando executar os comando `ng build`)
+    o ngx-build-plus, quando executar os comandos `ng build`)
 
 4.  ng g ngx-build-plus:wc-polyfill (vai adicionar o arquivo pollyfills.js, dentro
     desse arquivo tem que ter o `import '@ungap/custom-elements'`)
