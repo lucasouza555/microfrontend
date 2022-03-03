@@ -4,9 +4,11 @@
 
 Na pasta raiz do projeto executar:
 
-1. npm run build
+1. npm install (somente na primeira vez que for executar)
 
-2. npm run deploy
+2. npm run build
+
+3. npm run deploy
 
 O projeto1 rodará no `localhost:3500` e o projeto 2 no `localhost:3501`
 
