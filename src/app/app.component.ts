@@ -17,7 +17,7 @@ export class AppComponent {
   load() {
     if(environment.production) {  
       const script = document.createElement('script');
-      script.src = 'http://192.168.0.159:3501/main-es2015.js';
+      script.src = 'http://localhost:3501/main-es2015.js';
       document.body.appendChild(script);  
     }
   }
