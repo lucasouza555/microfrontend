@@ -28,7 +28,7 @@ Rota comum
 /comp1
 
 Exibe o componente `comp-sem-rota` (Esse componente é o `projeto-2-comp-sem-rota`,
-só muda a nomemclatura, onde **com-sem-rota** é o nome para utilizá-lo dentro da aplicação
+só muda a nomenclatura, onde **com-sem-rota** é o nome para utilizá-lo dentro da aplicação
 (seletor) e **projeto-2-comp-sem-rota** é o nome para utilizá-lo como web component)
 
 /comp2
